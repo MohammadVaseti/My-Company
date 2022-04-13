@@ -1,0 +1,170 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'Byekan';
+    src:url('../fonts/Byekan.ttf') format('truetype');
+       
+}
+    
+    @font-face{
+    font-family:lalehzar;
+    src: url('../fonts/lalezar.ttf') format('treuetype'),
+        url(../fonts/lalezar.woff) format('woff');}
+
+body{font-family: Byekan;}
+
+.header{
+text-align: center;    
+padding-top: 35px;   
+height: 700px;
+width:auto;
+background-image:url("../images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+
+    
+      
+}
+li{
+    font-size: 30px;
+     text-align: center;
+    
+}
+a{
+padding: 15px;}
+a:hover{color: orange;}
+
+
+.title{
+font-size: 60px;
+font-family: lalehzar;
+margin-top: 90px;}
+
+span{color: orange;}
+
+
+.para{
+font-size: 25px;
+height: 55px;
+line-height: 55px;
+width: 500px;
+margin: auto;
+margin-top: 30px;
+background-color: rgb(0,0,0,0.3);
+border: 1px solid white;
+border-radius: 20px;
+
+
+}
+
+
+
+.members{text-align: center;}
+
+
+
+
+.hmem{
+    
+    margin-top: 45px;}
+
+
+}
+
+
+
+.ulmem{list-style-type: none;
+
+}
+.ulli
+{
+width: 350px;
+display: inline-block;
+margin-top: 25px;
+margin: 25px;
+box-shadow: 0 0 50px gray;
+
+    
+}
+
+.member-pic{
+width: 100%;
+padding-top: 20px;}
+
+.membio{
+    padding: 20px;
+text-align: justify;
+}
+
+.memname{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.habout{
+ font-size: 37px;   
+color: white;
+padding-top: 150px;
+    padding-bottom: 35px;
+}
+
+
+.about
+{   text-align: center;
+    height: 1000px;
+    background-image:url(../images/bg.jpg);
+    background-size: cover;
+    background-color:#373837;
+    background-blend-mode: multiply;
+    padding-top: 50px;
+    
+    
+}
+
+.circle
+{
+    
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    background-color: rgba(135,135,135,0.3);
+    border-radius: 50%;
+    padding-top: 100px;
+}
+
+
+
+
+
+.parab{
+color: white;
+text-align: justify;
+width: 500px;
+    margin: auto;
+
+}
+
+.footer
+{
+text-align: center;    
+background-color: gray;
+padding-top: 50px;
+
+}  
+
+.footpic{padding: 10px;}
+
+.paraf{font-size: 35px
+}
+    
+    
+
+
